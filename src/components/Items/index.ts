@@ -1,3 +1,3 @@
-import ItemCard from "./ui/card/ItemCard";
+import ItemsList from "./ui/list/ItemsList";
 
-export { ItemCard };
+export { ItemsList };
