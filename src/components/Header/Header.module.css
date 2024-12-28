@@ -1,0 +1,40 @@
+.Header {
+  width: 100%;
+  padding: 25px 125px;
+  background: #0096ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Title {
+  font-size: 34px;
+  color: #fff;
+  font-weight: 800;
+}
+
+.Buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.Button {
+  padding: 10px 15px;
+  border: 3px solid #fff;
+  background: #0096ff;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.Button:hover {
+  background: #fff;
+  color: #000;
+}
+.Button:active {
+  background: #0096ff;
+  color: #fff;
+}/*# sourceMappingURL=Header.module.css.map */
