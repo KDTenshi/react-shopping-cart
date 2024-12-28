@@ -1,0 +1,45 @@
+.ItemCard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px 25px;
+  background: #fff;
+  border: 3px solid #000;
+  border-radius: 15px;
+  position: relative;
+}
+
+.Title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+
+.Price {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #0096ff;
+}
+
+.Button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 10px;
+  font-size: 16px;
+  color: #0096ff;
+  border: 3px solid #0096ff;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  cursor: pointer;
+}
+.Button:hover {
+  background: #0096ff;
+  color: #fff;
+}
+.Button:active {
+  background: #fff;
+  color: #0096ff;
+}/*# sourceMappingURL=ItemCard.module.css.map */
